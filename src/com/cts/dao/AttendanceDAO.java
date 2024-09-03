@@ -11,6 +11,6 @@ public interface AttendanceDAO {
     void deleteAttendance(int attendanceId);
     Attendance getAttendanceById(int attendanceId);
     List<Attendance> getAttendancesByEmployeeId(int employeeId);
-    List<Attendance> getMonthlyAttendanceReport(int employeeId, String monthYear); // new method
-    List<Attendance> getDailyAttendanceReport(); // new method
+    List<Attendance> getMonthlyAttendanceReport(int employeeId, String monthYear);
+    List<Attendance> getDailyAttendanceReport();
 }
